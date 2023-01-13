@@ -37,7 +37,7 @@ In all cases, we recommend that you take a close look at the error reason, error
 
 This error commonly occurs when the data source is inaccessible by the user, the user doesn't have the correct credentials to access the data source, or the source has been moved to a different place.
 
-**Example**: You have a query from a text tile that was located in drive D and created by user A. User A shares the query with user B, who doesn't have access to drive D. When this person tries to execute the query, they get a **DataSource.Error** because there's no drive D in their environment.
+**Example**: You have a query from a text file that was located in drive D and created by user A. User A shares the query with user B, who doesn't have access to drive D. When this person tries to execute the query, they get a **DataSource.Error** because there's no drive D in their environment.
 
 ![Data source error, could not find the file because there's no drive D in the current environment.](media/dealing-with-errors/file-path.png "Data source error, could not find the file because there's no drive D in the current environment")
 
